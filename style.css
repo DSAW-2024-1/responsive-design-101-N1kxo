@@ -21,11 +21,6 @@ body {
     border-radius: 20px;
 }
 
-#TituloReceta {
-    color: black;
-    font-family: 'Young Serif', serif; /* Cambio de fuente para todos los títulos */
-}
-
 #TituloPrepa {  
     padding-left: 25px;
     color: hsl(332, 51%, 32%);
