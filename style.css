@@ -1,0 +1,87 @@
+/* Estilos base para todos los dispositivos */
+body {
+    font-family: 'Outfit', sans-serif;
+    background-color: hsl(30, 54%, 90%);
+}
+
+#main {
+    background-color: hsl(0, 0%, 100%);
+    width: 100%;
+    max-width: 650px; /* Ancho máximo para contenido */
+    margin: 100px auto;
+    padding: 40px;
+    border-radius: 20px;
+    box-sizing: border-box;
+}
+
+#Preparation {
+    background-color: hsl(330, 100%, 98%);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 20px;
+}
+
+#TituloReceta {
+    color: black;
+    font-family: 'Young Serif', serif; /* Cambio de fuente para todos los títulos */
+}
+
+#TituloPrepa {  
+    padding-left: 25px;
+    color: hsl(332, 51%, 32%);
+}
+
+.Titulos {
+    color: hsl(14, 45%, 36%); /* Cambio de color para todos los títulos */
+    font-family: 'Young Serif', serif; /* Cambio de fuente para todos los títulos */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table th, td {
+    border-bottom: 1px solid hsl(0, 0%, 80%);
+    padding: 12px;
+    text-align: left;
+}
+
+table .Columna {
+    color: hsl(14, 45%, 36%);
+}
+
+table tr#last th, table tr#last td {
+    border-bottom: none;
+}
+
+/* Estilos específicos para dispositivos móviles */
+@media (max-width: 375px) {
+    #main {
+        margin: 50px auto;
+        padding: 20px;
+    }
+}
+
+/* Estilos específicos para tabletas */
+@media (min-width: 376px) and (max-width: 1023px) {
+    #main {
+        margin: 100px auto;
+        padding: 40px;
+    }
+}
+
+/* Estilos específicos para computadoras de escritorio */
+@media (min-width: 1024px) {
+    #main {
+        margin: 100px auto;
+        padding: 40px;
+    }
+}
+
+/* Estilo para la imagen */
+#huevo {
+    max-width: 100%; /* La imagen conservará su tamaño original */
+    height: auto;
+    border-radius: 10px;
+}
